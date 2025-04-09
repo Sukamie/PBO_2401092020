@@ -1,0 +1,36 @@
+Tugas 9.6.1
+Nama : Rizky Zahran Ramadhan
+NIM : 2401092020
+
+Penjelasan tentang istilah yang ada dlm java:
+
+1. Class:
+-> Class merupakan blueprint dari sebuah objek atau cetakan untuk membuat objek.
+	Contoh : ClassRegister, ClassWeapon, ClassVechile
+
+2. Object:
+-> Object adalah instansi nyata dari sebuah class. Saat kamu membuat object, kamu sedang menciptakan entitas berdasarkan struktur yang telah didefinisikan dalam class, turunan dari class yang ada.
+	Contoh : mobilTerbang, motorAir, senapanKaliber
+
+3. Instantiate:
+-> Membuat sebuah instance dari suatu class. Saat kita instantiate, kita menggunakan keyword new untuk membuat objek berdasarkan blueprint dari sebuah clas
+	Contoh : Mobil mobilSaya = new Mobil();
+	#"new" tersebut merupakan instantiate
+
+4. Instance Variable:
+-> Variabel yang dideklarasikan di dalam class, tetapi di luar method. Instance variable biasanya dibuat bila kita membutuhkan variabel yang akan digunakan oleh lebih dari satu method.  Instance variable tidak mesti ditulis dengan nilai awal. Bila nilai awal tidak dideklarasikan, maka nilai default untuk instance variable adalah 0 bila bertipe integer, false bila bertipe boolean, dan null untuk referensi objek.
+	Contoh : int angka;, String pesan="Welcome";, boolean status;
+
+5. Instance Method:
+-> Fungsi (method) yang didefinisikan di dalam sebuah class, dan hanya bisa dipanggil melalui instance (objek) dari class tersebut.
+	Contoh :  public void perkenalan()
+
+6. Class Variable:
+-> Class variable atau dikenal juga dengan istilah static variable adalah variable yang dideklarasikan di dalam class di luar method. Sama seperti instance variable, class variable dibuat bila kita membutuhkan variabel yang digunakan di banyak method.
+	Contoh : int angka=0;
+	#Setelah variable ini baru dibuat method
+
+7. Constructor:
+-> Constructor adalah method khusus yang akan dieksekusi pada saat pembuatan objek (instance). Biasanya method ini digunakan untuk inisialisasi atau mempersiapkan data untuk objek.
+	Contoh : Syste.out.println("Halo");
+	#Yang berada di dalam tanda kurung merupakan constructor
