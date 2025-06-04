@@ -9,10 +9,11 @@ package latihan100425;
  * @author Suga
  */
 public class StudentRecord {
+
     protected String name;
     protected String course;
     protected int grade;
-    
+
     public StudentRecord(){
         System.out.println("inside: Student Record Constructor");
     }
