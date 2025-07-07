@@ -269,3 +269,5 @@ Anggota berisikan data para `anggota`, begitu pula dengan `buku`, `peminjaman`, 
 
    Peminjaman sangat bergantung kepada `buku` dan `anggota`, tidak ada nya `anggota` dan `buku`, maka aplikasi tidak akan bisa berjalan dengan lancar.
 
+
+***Created by Zahran***
